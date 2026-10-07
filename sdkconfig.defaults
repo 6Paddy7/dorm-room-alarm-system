@@ -1,0 +1,5 @@
+# Target chip, so a fresh clone doesn't need set-target
+CONFIG_IDF_TARGET="esp32s3"
+
+# Flash size: 16 MB on this board (N16R8 module)
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
